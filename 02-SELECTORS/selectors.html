@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        /* ELEMENT SELECTOR */
+        
+         p.brownee{
+            background-color: red ; 
+        } 
+
+        p {
+        background-color: aqua !important;
+        }  
+
+      
+
+      /* ID SELECTOR */
+      /* p#red { background-color: red;} */
+      /* #red { background-color: red;} */
+
+
+
+      /* CLASS SELECTOR */
+      /* .red{background-color: red;}
+
+      #blue { background-color: blue;}
+      #green { background-color: green;}
+      #brown { background-color: brown;} */
+
+      /* GROUPING SELECTOR */
+        /* #yellow, .red, #blue, #green, p {
+            background-color: orange;
+        } */
+
+    /* DESCENDANT SELECTORS */
+    /* #blue a .italica{
+        background-color: red;
+    }  */
+
+     /* a .italica{
+        background-color: red;
+    }  */
+
+
+    /* #blue a{
+        background-color: purple;
+    }  */
+
+    
+
+    /* #blue > a {
+        background-color: purple;
+    } */
+
+    /* .section .left {
+        background-color: pink;
+    } */
+
+    
+
+    </style>
+    <title>CSS SELECTORS</title>
+</head>
+<body>
+    <div class="section">
+        section
+        <div class="left">
+            left
+            <div class="right">
+                right
+            </div>
+        </div>
+    </div>
+    <h1>CSS SELECTORS</h1>
+
+    <h2>learning css</h2>
+
+    <p id="yellow">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem dolorem eligendi recusandae fugiat impedit explicabo quaerat. Provident aliquid quos nostrum facere possimus voluptas dolorem modi magni delectus pariatur? Ad, officiis?</p>
+
+    <p class="red">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <a href="">Exercitationem dolorem eligendi recusandae fugiat impedit explicabo quaerat. </a>Provident aliquid quos nostrum facere possimus voluptas dolorem modi magni delectus pariatur? Ad, officiis?</p>
+
+    <p class="red">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem dolorem eligendi recusandae <a href="">Exercitationem dolorem eligendi recusandae fugiat impedit explicabo quaerat. </a> fugiat impedit explicabo quaerat. Provident aliquid quos nostrum facere possimus voluptas dolorem modi magni delectus pariatur? Ad, officiis?</p>
+
+    <p class="red">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem dolorem eligendi recusandae fugiat impedit explicabo <a href="">Exercitationem dolorem eligendi recusandae fugiat impedit explicabo quaerat. </a> quaerat. Provident aliquid quos nostrum facere possimus voluptas dolorem modi magni delectus pariatur? Ad, officiis?</p>
+
+
+    <p id="blue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem dolorem eligendi recusandae <a href="">Exercitationem dolorem eligendi <strong class="italica">recusandae fugiat impedit explicabo quaerat.</strong> </a> fugiat impedit explicabo quaerat. Provident aliquid quos nostrum facere possimus voluptas dolorem modi magni delectus pariatur? Ad, officiis?</p>
+    <p id="green">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem dolorem eligendi recusandae <a href="">Exercitationem dolorem eligendi recusandae fugiat impedit explicabo quaerat. </a> fugiat impedit explicabo quaerat. Provident aliquid quos nostrum facere possimus voluptas dolorem modi magni delectus pariatur? Ad, officiis?</p>
+    <p id="brown" class="brownee">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem dolorem eligendi recusandae <a href="">Exercitationem dolorem eligendi recusandae fugiat impedit explicabo quaerat. </a> fugiat impedit explicabo quaerat. Provident aliquid quos nostrum facere possimus voluptas dolorem modi magni delectus pariatur? Ad, officiis?</p>
+    
+</body>
+</html>
